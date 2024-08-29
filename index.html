@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>La Belle Fragrance</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>La Belle Fragrance</h1>
+        <div class="controls">
+            <div class="dark-mode">
+                <div class="info">
+                    <span>Dark Mode</span>
+                </div>
+                <div class="switch">
+                    <div class="base">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-icon">
+                <button><span>View Cart</span><i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Container Items -->
+    <section class="container">
+        <div class="container-items">
+            <div class="item">
+                <span class="title-item">Chanel No. 5</span>
+                <span class="brand">Chanel</span>
+                <img src="src/chanel.png" class="img-item">
+                <span class="price-item">$200.00 USD</span>
+                <span class="description-item">A timeless classic combining floral notes with aldehydes. Known for its elegance and sophistication.</span>
+                <button class="add-to-cart" data-id="1" data-name="Chanel No. 5" data-price="200.00" data-image="src/chanel.png"><i class="fa-solid fa-circle-plus"></i>Add To Cart</button>
+            </div>
+            <div class="item">
+                <span class="title-item">Creed Aventus</span>
+                <span class="brand">Creed</span>
+                <img src="src/creed.png" class="img-item">
+                <span class="price-item">$750.00 USD</span>
+                <span class="description-item">Creed Aventus blends pineapple, black currant, and birch wood for a fruity, woody, and distinctive fragrance.</span>
+                <button class="add-to-cart" data-id="2" data-name="Creed Aventus" data-price="750.00" data-image="src/creed.png"><i class="fa-solid fa-circle-plus"></i>Add To Cart</button>
+            </div>
+            <div class="item">
+                <span class="title-item">Tom Ford Black Orchid</span>
+                <span class="brand">Tom Ford</span>
+                <img src="src/tom-ford.png" class="img-item">
+                <span class="price-item">$270.00 USD</span>
+                <span class="description-item">A sensual perfume with notes of black orchid, spices, and black chocolate. Intense and luxurious.</span>
+                <button class="add-to-cart" data-id="3" data-name="Tom Ford Black Orchid" data-price="270.00" data-image="src/tom-ford.png"><i class="fa-solid fa-circle-plus"></i>Add To Cart</button>
+            </div>
+            <div class="item">
+                <span class="title-item">Baccarat Rouge 540</span>
+                <span class="brand">Maison Francis Kurkdjian</span>
+                <img src="src/baccarat-rouge.png" class="img-item">
+                <span class="price-item">$500.00 USD</span>
+                <span class="description-item">A woody and sweet fragrance with notes of jasmine, saffron, and ambergris. Known for its longevity and projection.</span>
+                <button class="add-to-cart" data-id="4" data-name="Baccarat Rouge 540" data-price="500.00" data-image="src/baccarat-rouge.png"><i class="fa-solid fa-circle-plus"></i>Add To Cart</button>
+            </div>
+            <div class="item">
+                <span class="title-item">Dior J'adore</span>
+                <span class="brand">Christian Dior</span>
+                <img src="src/dior-j.png" class="img-item dior-j">
+                <span class="price-item">$200.00 USD</span>
+                <span class="description-item">A floral and fruity perfume with notes of ylang-ylang, Damask rose, and sambac jasmine. Elegant and feminine.</span>
+                <button class="add-to-cart" data-id="5" data-name="Dior J'adore" data-price="200.00" data-image="src/dior-j.png"><i class="fa-solid fa-circle-plus"></i>Add To Cart</button>
+            </div>
+            <div class="item">
+                <span class="title-item">La Vie Est Belle</span>
+                <span class="brand">Lancôme</span>
+                <img src="src/la-vie-est.png" class="img-item">
+                <span class="price-item">$180.00 USD</span>
+                <span class="description-item">A sweet fragrance with notes of pear, jasmine, and patchouli. Warm and comforting.</span>
+                <button class="add-to-cart" data-id="6" data-name="La Vie Est Belle" data-price="180.00" data-image="src/la-vie-est.png"><i class="fa-solid fa-circle-plus"></i>Add To Cart</button>
+            </div>
+        </div>
+    </section>   
+    
+    <!-- Shopping Cart Popup -->
+    <div id="cart-popup" class="cart-popup hidden">
+        <div class="cart-content">
+            <span class="close-btn"><i class="fa-solid fa-xmark"></i></span>
+            <h2>Shopping Cart</h2>
+            <ul class="cart-items" id="cart-items">
+
+            </ul>
+            <p>Total: $<span id="total-price">0</span></p>
+            <button class="empty-cart" id="empty-cart">Empty Cart</button>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/3abd9f613f.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
