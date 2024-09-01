@@ -25,11 +25,11 @@ Puedes probar la aplicación en vivo a través del siguiente enlace de GitHub Pa
 
 ## 🚀 Uso
 
-1. **Agregar Productos:** Haz clic en el botón "Add to Cart" para agregar un producto al carrito. 🛒
-2. **Ver Carrito:** Haz clic en el ícono del carrito para ver los productos añadidos. 🛍️
-3. **Eliminar Productos:** Haz clic en el botón "Remove" junto a un producto para eliminarlo del carrito. ❌
-4. **Vaciar Carrito:** Haz clic en el botón "Empty Cart" para eliminar todos los productos del carrito. 🗑️
-5. **Modo Oscuro:** Haz clic en el interruptor de modo oscuro para alternar entre el modo claro y oscuro. 🌙
+- **Agregar Productos:** Haz clic en el botón "Add to Cart" para agregar un producto al carrito. 🛒
+- **Ver Carrito:** Haz clic en el ícono del carrito para ver los productos añadidos. 🛍️
+- **Eliminar Productos:** Haz clic en el botón "Remove" junto a un producto para eliminarlo del carrito. ❌
+- **Vaciar Carrito:** Haz clic en el botón "Empty Cart" para eliminar todos los productos del carrito. 🗑️
+- **Modo Oscuro:** Haz clic en el interruptor de modo oscuro para alternar entre el modo claro y oscuro. 🌙
 
 ## 📥 Instalación
 
