@@ -21,7 +21,7 @@ Una aplicación de carrito de compras interactiva creada con HTML, CSS y JavaScr
 
 Puedes probar la aplicación en vivo a través del siguiente enlace de GitHub Pages:
 
-[**Carrito de Compras en Vivo**](https://Jose-Macias-Code.github.io/Carrito-de-Compras-Interactivo/)
+[**Carrito de Compras en Vivo**](https://jose-macias-code.github.io/Carrito-de-Compras-Interactivo/)
 
 ## 🚀 Uso
 
