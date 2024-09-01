@@ -157,7 +157,7 @@ header .cart-icon button span {
 
 /* Container Items */
 .container {
-    max-width: 1200px;
+    max-width: 950px;
     padding: 10px;
     margin: auto;
     display: flex;
